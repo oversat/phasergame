@@ -133,12 +133,16 @@ function update() {
     player.body.velocity.normalize().scale(speed);
 
     if (cursors.left.isDown) {
+        console.log('Playing left');
         player.anims.play('walking left', true);
     } else if (cursors.right.isDown) {
+        console.log('Playing right');
         player.anims.play('walking right', true);
     } else if (cursors.up.isDown) {
+        console.log('Playing north');
         player.anims.play('walking north', true);
     } else if (cursors.down.isDown) {
+        console.log('Playing south');
         player.anims.play('walking south', true);
     }
      else {

@@ -20,30 +20,31 @@
                 "direction": "forward"
             },
             {
-                "name": "walking right",
+                "name": "walking right",  
                 "from": 4,
                 "to": 7,
-                "direction": "right"
+                "direction": "forward"
             },
             {
-                "name": "walking north",
+                "name": "walking south",  
                 "from": 8,
                 "to": 11,
-                "direction": "north"
+                "direction": "forward"
             },
             {
-                "name": "walking south",
+                "name": "walking left",  
                 "from": 12,
                 "to": 15,
-                "direction": "south"
+                "direction": "forward"
             },
             {
-                "name": "walking left",
+                "name": "walking north",  
                 "from": 16,
                 "to": 19,
-                "direction": "left"
+                "direction": "forward"
             }
-        ],
+        ]
+        ,
         "layers": [
             {
                 "name": "Base Layer",
