@@ -70,10 +70,10 @@
         "13": {"frame": {"x": 48, "y": 192, "w": 48, "h": 48}, "rotated": false, "trimmed": false, "spriteSourceSize": {"x": 0, "y": 0, "w": 48, "h": 48}, "sourceSize": {"w": 48, "h": 48}, "duration": 200},
         "14": {"frame": {"x": 96, "y": 192, "w": 48, "h": 48}, "rotated": false, "trimmed": false, "spriteSourceSize": {"x": 0, "y": 0, "w": 48, "h": 48}, "sourceSize": {"w": 48, "h": 48}, "duration": 200},
         "15": {"frame": {"x": 144, "y": 192, "w": 48, "h": 48}, "rotated": false, "trimmed": false, "spriteSourceSize": {"x": 0, "y": 0, "w": 48, "h": 48}, "sourceSize": {"w": 48, "h": 48}, "duration": 200},
-        "16": {"frame": {"x": 0, "y": 240, "w": 48, "h": 48}, "rotated": false, "trimmed": false, "spriteSourceSize": {"x": 0, "y": 0, "w": 48, "h": 48}, "sourceSize": {"w": 48, "h": 48}, "duration": 200},
-        "17": {"frame": {"x": 48, "y": 240, "w": 48, "h": 48}, "rotated": false, "trimmed": false, "spriteSourceSize": {"x": 0, "y": 0, "w": 48, "h": 48}, "sourceSize": {"w": 48, "h": 48}, "duration": 200},
-        "18": {"frame": {"x": 96, "y": 240, "w": 48, "h": 48}, "rotated": false, "trimmed": false, "spriteSourceSize": {"x": 0, "y": 0, "w": 48, "h": 48}, "sourceSize": {"w": 48, "h": 48}, "duration": 200},
-        "19": {"frame": {"x": 144, "y": 240, "w": 48, "h": 48}, "rotated": false, "trimmed": false, "spriteSourceSize": {"x": 0, "y": 0, "w": 48, "h": 48}, "sourceSize": {"w": 48, "h": 48}, "duration": 200}
-
+        "16": {"frame": {"x": 0, "y": 192, "w": 48, "h": 48}, "rotated": false, "trimmed": false, "spriteSourceSize": {"x": 0, "y": 0, "w": 48, "h": 48}, "sourceSize": {"w": 48, "h": 48}, "duration": 200},
+        "17": {"frame": {"x": 48, "y": 192, "w": 48, "h": 48}, "rotated": false, "trimmed": false, "spriteSourceSize": {"x": 0, "y": 0, "w": 48, "h": 48}, "sourceSize": {"w": 48, "h": 48}, "duration": 200},
+        "18": {"frame": {"x": 96, "y": 192, "w": 48, "h": 48}, "rotated": false, "trimmed": false, "spriteSourceSize": {"x": 0, "y": 0, "w": 48, "h": 48}, "sourceSize": {"w": 48, "h": 48}, "duration": 200},
+        "19": {"frame": {"x": 144, "y": 192, "w": 48, "h": 48}, "rotated": false, "trimmed": false, "spriteSourceSize": {"x": 0, "y": 0, "w": 48, "h": 48}, "sourceSize": {"w": 48, "h": 48}, "duration": 200}
+        
     }
 }
