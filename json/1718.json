@@ -4,7 +4,7 @@
         "version": "1.2.27",
         "image": "1718.png",
         "format": "RGBA8888",
-        "tokenSlug": "wizards",
+        "tokenSlug": "cyphers",
         "tokenId": "1718",
         "tokenName": "1718",
         "size": {
@@ -23,25 +23,25 @@
                 "name": "walking right",
                 "from": 4,
                 "to": 7,
-                "direction": "forward"
+                "direction": "right"
             },
             {
                 "name": "walking north",
                 "from": 8,
                 "to": 11,
-                "direction": "forward"
+                "direction": "north"
             },
             {
                 "name": "walking south",
                 "from": 12,
                 "to": 15,
-                "direction": "forward"
+                "direction": "south"
             },
             {
                 "name": "walking left",
                 "from": 16,
                 "to": 19,
-                "direction": "forward"
+                "direction": "left"
             }
         ],
         "layers": [
