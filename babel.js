@@ -1,5 +1,6 @@
 /**
- * Author: Dotta-ish, mostly based on work by Michael Hadley, mikewesthad.com
+ * Author: Jeremiah Long
+ * based on Dotta-ish, mostly based on work by Michael Hadley, mikewesthad.com
  *
  * The world assets aren't original or from a Forgotten Runes game
  * they're a demo originally from:
@@ -15,6 +16,7 @@
  */
 
 // Spritesheets and animations in Phaser use a globally-scoped namespace
+
 
 const config = {
     type: Phaser.AUTO,
@@ -40,6 +42,7 @@ const config = {
   let player;
   let showDebug = false;
   
+  
   function preload() {
       this.load.image(
           "tiles",
@@ -49,16 +52,23 @@ const config = {
           "map",
           "https://mikewesthad.github.io/phaser-3-tilemap-blog-posts/post-1/assets/tilemaps/tuxemon-town.json"
       );
-      // Load the spritesheet for the Cypher City character
+      // Load the spritesheet for the Nari's Bunny Slime AI Companion Character
       this.load.aseprite(
           '1718',
-          'https://raw.githubusercontent.com/oversat/phasergame/main/sprites/bunnyslime192x240.png',
+          'https://raw.githubusercontent.com/oversat/phasergame/main/sprites/JiangshiJL2.png',
           'https://raw.githubusercontent.com/oversat/phasergame/main/json/1718.json'
       );
   }
   
+  function getQueryStringParam(param) {
+    var url = window.location.search;
+    var params = new URLSearchParams(url);
+    return params.get(param);
+}
+
   function create() {
-      const map = this.make.tilemap({ key: "map" });
+    console.log("Create function called");  
+    const map = this.make.tilemap({ key: "map" });
   
       const tileset = map.addTilesetImage("tuxmon-sample-32px-extruded", "tiles");
   
@@ -92,7 +102,7 @@ const config = {
       cursors = this.input.keyboard.createCursorKeys();
   
       this.add
-          .text(16, 16, "Change your Cypher number in the URL\nArrow keys to move", {
+          .text(16, 16, "Welcome back to school Nari! Please check in to continue...", {
               font: "16px monospace",
               fill: "#000000",
               padding: { x: 20, y: 10 },
