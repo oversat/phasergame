@@ -55,7 +55,7 @@ const config = {
       // Load the spritesheet for the Nari's Bunny Slime AI Companion Character
       this.load.aseprite(
           '1718',
-          'https://raw.githubusercontent.com/oversat/phasergame/main/sprites/JiangshiJL2.png',
+          'https://raw.githubusercontent.com/oversat/phasergame/main/sprites/bunnyslimeRez.png',
           'https://raw.githubusercontent.com/oversat/phasergame/main/json/1718.json'
       );
   }
